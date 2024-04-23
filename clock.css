@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Importa a fonte externa para o projeto */
 
 * {
+    /* Zera toda a formatação que vem por padrão na página */
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -8,13 +10,16 @@
 
 body {
     height: 100vh;
+    /* Cobre a altura da tela inteira */
     background: linear-gradient(250deg, rgb(204, 0, 255), rgb(0, 183, 255), rgb(0, 4, 255));
     display: flex;
+    /* Alinha todos os elementos no centro, um do lado do outro */
     align-items: center;
     justify-content: center;
 }
 
 .relogio {
+    /* Configuração do contorno do relógio */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,10 +31,12 @@ body {
 }
 
 .relogio div {
+    /* Configura os quadrados do contorno */
     height: 170px;
     width: 150px;
     display: flex;
     flex-direction: column;
+    /* Alinha os elementos para que fiquem um em baixo do outro */
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -41,6 +48,7 @@ body {
 
 .relogio span {
     font-weight: bolder;
+    /* Engrossa o tamanho da fonte, similar ao negrito */
     font-size: 60px;
 }
 
